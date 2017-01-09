@@ -74,9 +74,9 @@ app.on('ready', async () => {
 
   if (process.platform === 'darwin') {
     template = [{
-      label: 'Electron',
+      label: 'Sheath',
       submenu: [{
-        label: 'About ElectronReact',
+        label: 'About Sheath',
         selector: 'orderFrontStandardAboutPanel:'
       }, {
         type: 'separator'
@@ -86,7 +86,7 @@ app.on('ready', async () => {
       }, {
         type: 'separator'
       }, {
-        label: 'Hide ElectronReact',
+        label: 'Hide Sheath',
         accelerator: 'Command+H',
         selector: 'hide:'
       }, {
