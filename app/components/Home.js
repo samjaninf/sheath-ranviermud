@@ -10,10 +10,10 @@ export default class Home extends Component {
       <div>
         <div className={styles.container}>
           <h2>Home</h2>
-          <Link to="/area">Create New Area</Link>
-          <Link to="/room">Create New Room</Link>
-          <Link to="/item">Create New Item</Link>
-          <Link to="/character">Create New Character</Link>
+          <Link to="/area">Areas</Link>
+          <Link to="/room">Rooms</Link>
+          <Link to="/item">Items</Link>
+          <Link to="/character">Characters</Link>
         </div>
       </div>
     );
