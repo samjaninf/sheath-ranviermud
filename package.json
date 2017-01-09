@@ -1,8 +1,8 @@
 {
-  "name": "electron-react-boilerplate",
-  "productName": "ElectronReact",
+  "name": "sheath-ranviermud",
+  "productName": "SheathRanvierMUD",
   "version": "0.10.0",
-  "description": "Electron application boilerplate based on React, React Router, Webpack, React Hot Loader for rapid application development",
+  "description": "Electron application for viewing and editing RanvierMUD Areas and Entities",
   "main": "main.js",
   "scripts": {
     "test": "cross-env NODE_ENV=test BABEL_DISABLE_CACHE=1 mocha --retries 2 --compilers js:babel-register --recursive --require ./test/setup.js test/**/*.spec.js",
@@ -26,8 +26,8 @@
     "cleanup": "mop -v"
   },
   "build": {
-    "productName": "ElectronReact",
-    "appId": "org.develar.ElectronReact",
+    "productName": "Sheath",
+    "appId": "org.ranvier.Sheath",
     "category": "public.app-category.tools",
     "dmg": {
       "contents": [
@@ -71,17 +71,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    "url": ""
   },
   "author": {
-    "name": "C. T. Lin",
-    "email": "chentsulin@gmail.com",
-    "url": "https://github.com/chentsulin"
+    "name": "Sean O'Donohue <boilerplate by C. T. Lin>",
+    "email": "sean.odonohue@detroitlabs.com, chentsulin@gmail.com",
+    "url": "https://github.com/seanohue"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
-  },
   "keywords": [
     "electron",
     "boilerplate",
@@ -91,7 +88,6 @@
     "webpack",
     "react-hot"
   ],
-  "homepage": "https://github.com/chentsulin/electron-react-boilerplate#readme",
   "devDependencies": {
     "asar": "^0.12.4",
     "babel-core": "^6.21.0",
