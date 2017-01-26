@@ -1,40 +1,20 @@
-# electron-react-boilerplate
 
-[![Build Status][travis-image]][travis-url]
-[![Appveyor Build Status][appveyor-image]][appveyor-url]
-[![Dependency Status][david_img]][david_site]
-[![NPM version][npm-image]][npm-url]
-[![Join the chat at https://gitter.im/electron-react-boilerplate/Lobby](https://badges.gitter.im/electron-react-boilerplate/Lobby.svg)](https://gitter.im/electron-react-boilerplate/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-![](./erb-logo.png)
-
-> Live editing development on desktop app
+### Built with electron-react-boilerplate
 
 [Electron](http://electron.atom.io/) application boilerplate based on [React](https://facebook.github.io/react/), [Redux](https://github.com/reactjs/redux), [React Router](https://github.com/reactjs/react-router), [Webpack](http://webpack.github.io/docs/), [React Transform HMR](https://github.com/gaearon/react-transform-hmr) for rapid application development
 
-## Screenshot
-
-![Electron Boilerplate Demo](https://cloud.githubusercontent.com/assets/3382565/10557547/b1f07a4e-74e3-11e5-8d27-79ab6947d429.gif)
 
 ## Install
 
 * **Note: requires a node version >= 6 and an npm version >= 3.**
 * **If you have installation or compilation issues with this project, please see [our debugging guide](https://github.com/chentsulin/electron-react-boilerplate/issues/400)**
 
-First, clone the repo via git:
-
-```bash
-git clone https://github.com/chentsulin/electron-react-boilerplate.git your-project-name
-```
-
-And then install dependencies.
 **ProTip**: Install with [yarn](https://github.com/yarnpkg/yarn) for faster and safer installation
 
 ```bash
 $ cd your-project-name && npm install
 ```
-
-:bulb: *In order to remove boilerplate sample code, simply run `npm run cleanup`. After this is run, the initial sample boilerplate code will be removed in order for a clean project for starting custom dev*
 
 ## Run
 
@@ -51,7 +31,7 @@ or run two servers with one command
 $ npm run dev
 ```
 
-## Editor Configuration
+## Optional Editor Configuration
 **Atom**
 ```bash
 apm install editorconfig es6-javascript atom-ternjs javascript-snippets linter linter-eslint language-babel autocomplete-modules
@@ -101,7 +81,6 @@ $ set UPGRADE_EXTENSIONS=1 && npm run dev
 ```
 
 
-
 ## CSS Modules
 
 This boilerplate out of the box is configured to use [css-modules](https://github.com/css-modules/css-modules).
@@ -116,7 +95,6 @@ If you want to import global css libraries (like `bootstrap`), you can just writ
 ```css
 @import "~bootstrap/dist/css/bootstrap.css";
 ```
-
 
 ## Packaging
 
@@ -194,14 +172,14 @@ Then, use git to merge some latest commits:
 git pull upstream master
 ```
 
-## Maintainers
+## Maintainers for Boilerplate
 
 - [C. T. Lin](https://github.com/chentsulin)
 - [Jhen-Jie Hong](https://github.com/jhen0409)
 - [Amila Welihinda](https://github.com/amilajack)
 
 
-## License
+## License for Boilerplate
 MIT © [C. T. Lin](https://github.com/chentsulin)
 
 [npm-image]: https://img.shields.io/npm/v/electron-react-boilerplate.svg?style=flat-square
